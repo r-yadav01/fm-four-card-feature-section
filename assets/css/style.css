@@ -5,16 +5,35 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 15px;
-
   color: var(--grayLight);
+  height: 100svh;
+  display: flex;
 }
 
 .max-width-wrapper {
   max-width: 375px;
   padding: 3rem 2rem;
-  margin-left: auto;
-  margin-right: auto;
-  /* box-shadow: 0px 0px 12px 12px hsl(0deg, 0%, 85%); */
+  margin: auto;
+}
+
+.intro {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.intro * {
+  display: inline-block;
+}
+
+.intro h1 {
+  font-weight: 200;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  font-size: 1.5rem;
+}
+
+.intro strong {
+  font-weight: 600;
 }
 
 h1,
@@ -23,27 +42,12 @@ h2 {
   color: var(--grayDark);
 }
 
-.intro {
-  margin-bottom: 3rem;
-  text-align: center;
-  padding: 0rem 0.25rem;
-}
-
-.intro h1 {
-  font-weight: 200;
-  margin-bottom: 1rem;
-  letter-spacing: 0.5px;
-}
-
-.intro strong {
-  font-weight: 600;
-}
-
 .card {
-  border-radius: 4.5px;
+  border-radius: 5px;
+  margin-top: 2rem;
   position: relative;
   padding: 1.5rem 2rem;
-  box-shadow: 0px 12px 16px hsl(212deg, 20%, 85%);
+  box-shadow: 0px 12px 16px hsl(212deg, 50%, 85%);
 }
 
 .card h2 {
@@ -61,21 +65,60 @@ h2 {
 }
 
 .card.one {
-  border-top: 4.5px solid hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(180, 62%, 55%);
 }
 
 .card.two {
-  border-top: 4.5px solid hsl(0, 78%, 62%);
+  border-top: 5px solid hsl(0, 78%, 62%);
 }
 
 .card.three {
-  border-top: 4.5px solid hsl(34, 97%, 64%);
+  border-top: 5px solid hsl(34, 97%, 64%);
 }
 
 .card.four {
-  border-top: 4.5px solid hsl(212, 86%, 64%);
+  border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-article {
-  margin-top: 2rem;
+@media (min-width: 800px) {
+  .max-width-wrapper {
+    max-width: 1400px;
+  }
+
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-bottom: 4rem;
+  }
+
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .intro p {
+    font-size: 1.1rem;
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .card-two-three {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .card {
+    max-width: 400px;
+    margin-top: 0rem;
+    box-shadow: 0px 16px 20px hsl(212deg, 50%, 85%);
+  }
+
+  .card p {
+    font-size: 1rem;
+  }
 }

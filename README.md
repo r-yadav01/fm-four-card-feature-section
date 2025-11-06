@@ -1,6 +1,6 @@
 # Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK).
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Build it using css flexbox, html.
 
 ## Table of contents
 
@@ -12,9 +12,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [hosted on github](https://github.com/r-yadav01/)
-- Live Site URL: [click here](https://r-yadav01.github.io/)
+- Solution URL: [hosted on github](https://github.com/r-yadav01/fm-four-card-feature-section)
+- Live Site URL: [click here](https://r-yadav01.github.io/fm-four-card-feature-section)
 
 ## My process
 
@@ -41,22 +39,18 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
+- Nothing new, but was a good refresher for css flexbox.
+
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- I would like to experiment with `width` and `max-width` on `<img>` html-tag.
 
 ## Author
 
 - Frontend Mentor - [@r-yadav01](https://www.frontendmentor.io/profile/r-yadav01)
 - Twitter - [@r_yadav01](https://x.com/r_yadav01)
 - GitHub - [r-yadav01](https://github.com/r-yadav01)
-
-## Acknowledgments
